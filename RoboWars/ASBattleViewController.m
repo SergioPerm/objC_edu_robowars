@@ -43,17 +43,39 @@
     self.shots = [NSMutableArray array];
     self.robotsOrder = [NSMutableArray array];
     
-    ASSmart* p1         = [[ASSmart alloc] init];
-    ASTestPilot* p2     = [[ASTestPilot alloc] init];
-    ASTestPilot* p3     = [[ASTestPilot alloc] init];
-    ASTestPilot* p4     = [[ASTestPilot alloc] init];
-    
+    ASSmart* p1 = [[ASSmart alloc] init];
+    ASTestPilot* p2 = [[ASTestPilot alloc] init];
+    ASTestPilot* p3 = [[ASTestPilot alloc] init];
+    ASTestPilot* p4 = [[ASTestPilot alloc] init];
+    ASTestPilot* p5 = [[ASTestPilot alloc] init];
+    ASTestPilot* p6 = [[ASTestPilot alloc] init];
+    ASTestPilot* p7 = [[ASTestPilot alloc] init];
+    ASTestPilot* p8 = [[ASTestPilot alloc] init];
+    ASTestPilot* p9 = [[ASTestPilot alloc] init];
+    ASTestPilot* p10 = [[ASTestPilot alloc] init];
+    ASTestPilot* p11 = [[ASTestPilot alloc] init];
+    ASTestPilot* p12 = [[ASTestPilot alloc] init];
+    ASTestPilot* p13 = [[ASTestPilot alloc] init];
+    ASTestPilot* p14 = [[ASTestPilot alloc] init];
+    ASTestPilot* p15 = [[ASTestPilot alloc] init];
+
     self.allRobots = [NSArray arrayWithObjects:
-                      [ASRobot robotWithPilot:p1],
-                      [ASRobot robotWithPilot:p2],
+                        [ASRobot robotWithPilot:p1],
+                        [ASRobot robotWithPilot:p2],
                       [ASRobot robotWithPilot:p3],
                       [ASRobot robotWithPilot:p4],
-                      nil];
+                      [ASRobot robotWithPilot:p5],
+                      [ASRobot robotWithPilot:p6],
+                      [ASRobot robotWithPilot:p7],
+                      [ASRobot robotWithPilot:p8],
+                      [ASRobot robotWithPilot:p9],
+                      [ASRobot robotWithPilot:p10],
+                      [ASRobot robotWithPilot:p11],
+                      [ASRobot robotWithPilot:p12],
+                      [ASRobot robotWithPilot:p13],
+                      [ASRobot robotWithPilot:p14],
+                      [ASRobot robotWithPilot:p15],
+                        nil];
     
     self.allRobots = [self shuffleArray:self.allRobots];
     
